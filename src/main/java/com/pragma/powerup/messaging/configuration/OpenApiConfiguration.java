@@ -1,5 +1,6 @@
 package com.pragma.powerup.messaging.configuration;
 
+import com.pragma.powerup.messaging.configuration.utils.Constants;
 import io.swagger.v3.oas.annotations.enums.SecuritySchemeIn;
 import io.swagger.v3.oas.annotations.enums.SecuritySchemeType;
 import io.swagger.v3.oas.annotations.security.SecurityScheme;
