@@ -30,7 +30,7 @@ public class TwilioRestController {
                     @ApiResponse(responseCode = "201", description = "Notification sent successfully",
                             content = @Content(mediaType = "application/json",
                                     schema = @Schema(ref = "#/components/schemas/Map"))),
-                    @ApiResponse(responseCode = "404", description = "Something went wrong",
+                    @ApiResponse(responseCode = "401", description = "Something went wrong",
                             content = @Content(mediaType = "application/json",
                                     schema = @Schema(ref = "#/components/schemas/Error"))),
                     @ApiResponse(responseCode = "409", description = "Conflict",

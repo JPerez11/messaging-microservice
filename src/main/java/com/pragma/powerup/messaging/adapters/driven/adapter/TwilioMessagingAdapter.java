@@ -10,9 +10,9 @@ import org.springframework.stereotype.Component;
 @Component
 public class TwilioMessagingAdapter implements TwilioPersistencePort {
 
-    private static final  String ACCOUNT_SID = "AC529d46e0dca93b029077c8326b79aefd";
-    private static final String AUTH_TOKEN = "546f28def3e95af2724e81235a57d4d6";
-    private static final String TWILIO_PHONE_NUMBER = "+13613392310";
+    private static final  String ACCOUNT_SID = System.getenv("TWILIO_ACCOUNT_SID");
+    private static final String AUTH_TOKEN = System.getenv("TWILIO_AUTH_TOKEN");
+    private static final String TWILIO_PHONE_NUMBER = System.getenv("TWILIO_PHONE_NUMBER");
 
     @Override
     public void sendMessage(TwilioModel twilioModel) {
