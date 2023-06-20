@@ -31,6 +31,12 @@ To get a local copy up and running follow these steps.
 
 ### Installation
 
+###### Recommendation: Watch the following video ######
+![YouTube](https://img.shields.io/badge/YouTube-FF0000?style=for-the-badge&logo=youtube&logoColor=white)
+<br>LINKS:
+<br> https://youtu.be/xIQZolmvbtM - Project explained
+<br> https://youtu.be/PLQHsIf7g5g - Additional project settings
+
 1. Clone the repository
    <br>
    <b>Steps:</b>
